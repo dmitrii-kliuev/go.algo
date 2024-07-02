@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestSumOfValuesAtIndicesWithKSetBits_test(t *testing.T) {
+func TestSumOfValuesAtIndicesWithKSetBits(t *testing.T) {
 	nums := []int{5, 10, 1, 5, 2}
 	k := 1
 	expected := 13
