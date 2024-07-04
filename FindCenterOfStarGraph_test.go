@@ -28,7 +28,7 @@ func findCenter(edges [][]int) int {
 	return b
 }
 
-func findCenterV1(edges [][]int) int {
+func _(edges [][]int) int {
 	a := edges[0][0]
 	b := edges[0][1]
 	aCount := 0
